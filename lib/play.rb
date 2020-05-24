@@ -35,7 +35,7 @@ def turn
   end
 end
 
-def play(board)     # Help Understanding how to chain togther methdods created previously
+def play(board)
   counter = 0
   until counter == 9
     turn
