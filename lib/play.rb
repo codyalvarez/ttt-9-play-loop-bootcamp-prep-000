@@ -38,7 +38,7 @@ end
 def play(board)     # Help Understanding how to chain togther methdods created previously
   counter = 0
   until counter == 9
-    turn.move(board, index, current_player)
+    turn
     counter += 1
   end
 end
